@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'Figtree';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
 
 *{
     margin: 0px;
@@ -8,16 +12,30 @@
 
 body{
     background-color: hsl(47, 88%, 63%);
+    
 }
 
 main{
+    font-family: 'Figtree';
+    text-align: center;
     background-color: white;
     margin: auto;
     
-    padding: 10px;
+    padding: 5px;
     box-sizing: content-box;
     max-width: 400px;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 5px 1px 1px black;
+}
+
+.imagem {
+    
+    border-radius: 10px;
+}
+
+.amarelo {
+    text-align: left;
+    background-color: hsl(47, 88%, 63%);
+    max-width: 80px;
 }
