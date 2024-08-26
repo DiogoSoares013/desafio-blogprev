@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    
+    padding: 10px;
+    box-sizing: content-box;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 1px 1px black;
+}
